@@ -21,14 +21,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.202"
-        tools:srcCompat="@drawable/logo_no_background" />
+        tools:srcCompat="@drawable/logo_no_background"
+        android:contentDescription="@string/app_logo" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="200dp"
         android:layout_height="75dp"
-        android:background="#FF82A3A1"
-        android:text="Start"
+        android:background="@color/cambridge_blue"
+        android:text="@string/start"
+        android:textColor="@color/oxford_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
